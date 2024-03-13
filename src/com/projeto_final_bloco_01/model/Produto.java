@@ -40,11 +40,12 @@ public abstract class Produto {
 	
 	
 	public void visualizarInformacoes() {
-		System.out.println(" *** INFORMAÇÕES DO PRODUTO *** ");
-		System.out.println("NUMERO DE IDENTIFICAÇÃO DO PRODUTO " + this.id );
+		System.out.println(" \n*** INFORMAÇÕES DO PRODUTO *** ");
+		System.out.println("NUMERO DE IDENTIFICAÇÃO DO PRODUTO : " + this.id );
 		System.out.println("NOME DO PRODUTO : " + this.nome);
 		System.out.println("VALOR DO PRODUTO : R$" + this.preco);
-		System.out.println("MARCA DO PRODUTO : R$" + this.marca);
+		System.out.println("MARCA DO PRODUTO : " + this.marca);
+		
 		
 	}
 	

@@ -37,4 +37,11 @@ public class Livro extends Produto {
 		this.tema = tema;
 	}
 
+	public void visualizarInformacoes() {
+		super.visualizarInformacoes();
+		System.out.println("NOME DO AUTOR : " + this.autor);
+		System.out.println("QUANTIDADE DE PÁGINAS : " + this.quantidadePaginas);
+		System.out.println("TEMA : " + this.tema);
+		System.out.println(" ********************************* \n");
+	}
 }

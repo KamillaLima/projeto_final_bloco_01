@@ -48,4 +48,12 @@ public class Movel extends Produto {
 		this.cor = cor;
 	}
 
+	public void visualizarInformacoes() {
+		super.visualizarInformacoes();
+		System.out.println("LARGURA : " + this.largura);
+		System.out.println("ALTURA : " + this.altura);
+		System.out.println("COMPRIMENTO : " + this.comprimento);
+		System.out.println("COR : " + this.cor);
+		System.out.println(" ********************************* \n");
+	}
 }
